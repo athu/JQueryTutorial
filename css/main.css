@@ -97,7 +97,17 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+#panel,#flip{
+    padding:15px;
+    text-align: center;
+    background-color: #e5eecc;
+    border: solid 1px silver;
+}
 
+#panel{
+    padding: 50px;
+    display: none;
+}
 
 
 

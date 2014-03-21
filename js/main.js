@@ -1,5 +1,10 @@
 $(document).ready(function(){
 	
+	$("#flip").click(function(){
+		
+    	$("#panel").slideToggle("slow");
+ 	});
+
 	$("#btnFadeIn").click(function(){
     	$("#div1").fadeIn();
     	$("#div2").fadeIn("slow");
